@@ -73,13 +73,13 @@
 - (void)click:(UIButton *)sender
 {
     //文件选取，浏览
-    [self presentViewController:self.documentPickerVC animated:YES completion:nil];
+    //[self presentViewController:self.documentPickerVC animated:YES completion:nil];
     
     //文件预览
-    /*
+    ///*
     NSURL *url = [NSURL URLWithString:@"https://sbb.hd-os.com/sbbyd_upload/shop/201712281548087721587.png"];
     [self previewFileWithURL:url];
-     */
+     //*/
 }
 
 
